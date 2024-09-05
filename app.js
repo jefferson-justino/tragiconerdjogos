@@ -45,3 +45,10 @@ function pesquisa() {
     }
 
 }
+
+campo.addEventListener('keypress', (event)=>{
+    if(event.key=='Enter'){
+        pesquisa()
+    }
+  
+})
