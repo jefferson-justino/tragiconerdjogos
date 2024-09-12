@@ -20,7 +20,7 @@ exibir()
 
 
 function pesquisa() {
-    let valorPesquisado = campo.value
+    let valorPesquisado = campo.value.toLowerCase()
     let encontrou = false
     guardarJogos = ``
     for (let i = 0; i < jogos.length; i++) {
