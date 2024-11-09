@@ -171,9 +171,9 @@ footer section{
 }
 @media(max-width:1487px){
     #resultados {
-        width: 30%;
-         margin-left: 35%;
-         height: 70vh;
+        width: 90%;
+         margin-left: 5%;
+         height: 60vh;
          
         
      }
@@ -192,7 +192,7 @@ footer section{
     #resultados {
         width: 50%;
          margin-left: 35%;  
-         height: 75vh;
+         
      }
 }
 @media(max-width:469px){
