@@ -2,39 +2,28 @@ let campo = document.getElementById('campo')
 let resultados = document.getElementById('resultados')
 
 
-console.log(jogos[0].nome)
-let guardarJogos= ''
-
-function exibir(){    
-for (let i = 0; i < jogos.length; i++) {
-        guardarJogos += `
-        <a href=${jogos[i].link} target='_blank' class='linkCard'>
-        <div class = 'card'>
-        <img src=${jogos[i].imagem} alt='Imagem do jogo' class = 'imagemCard'/>
-        <h3 class='nomeCard'>${jogos[i].nome}</h3>
-        </div>
-        </a>`}
-        resultados.innerHTML=guardarJogos
-}
-exibir()
-
-
 function pesquisa() {
+    let guardarJogos= ''
     let valorPesquisado = campo.value.toLowerCase()
     let encontrou = false
-    guardarJogos = ``
+   
     for (let i = 0; i < jogos.length; i++) {
-        if (jogos[i].nome.toLowerCase().includes(valorPesquisado)) {
-            guardarJogos += `
-            <a href=${jogos[i].link} target='_blank' class='linkCard'>
-            <div class = 'card'>
-            <img src=${jogos[i].imagem} alt='Imagem do jogo' class = 'imagemCard'/>
-            <h3 class='nomeCard'>${jogos[i].nome}</h3>
-            </div>
-            </a>`
-            encontrou = true
+        if (valorPesquisado==''|| jogos[i].nome.toLowerCase().includes(valorPesquisado)) { 
+            guardarJogos += ` 
+             
+            <div class = 'card'> 
+            <img src=${jogos[i].imagem} alt='Imagem do jogo' class = 'imagemCard'/> 
+            <h3 class='nomeCard'>${jogos[i].nome}</h3> 
+            <pre class='legenda' title='As compras são feitas a partir da loja instant gaming, você pode comprar a chave do jogo e resgatar na steam(para a maioria dos jogos)'>Compre o jogo com desconto</pre>
+            <div class='localBot'>
+        <a href=${jogos[i].linkGuia} target='_blank' > <button class='botaoguia'>Encontrar Guia</button></a> 
+        <a href=${jogos[i].linkGame} target='_blank' > <button class='botaocomprar'>Comprar Jogo</button></a>
+        </div>
+            </div> 
+            ` 
+            encontrou = true 
 
-        }
+        } 
         
     }
     resultados.innerHTML=guardarJogos
@@ -45,10 +34,6 @@ function pesquisa() {
     }
 
 }
+pesquisa()
 
-campo.addEventListener('keypress', (event)=>{
-    if(event.key=='Enter'){
-        pesquisa()
-    }
-  
-})
+campo.addEventListener('input', pesquisa )

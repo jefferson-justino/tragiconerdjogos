@@ -1,7 +1,8 @@
 class Guias {
-    constructor(imagem,nome,link){
+    constructor(imagem,nome,linkGuia,linkGame){
         this.imagem = imagem,
         this.nome = nome,
-        this.link = link
+        this.linkGuia = linkGuia,
+        this.linkGame = linkGame
     }
 }
