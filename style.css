@@ -173,7 +173,7 @@ footer section{
     #resultados {
         width: 30%;
          margin-left: 35%;
-        
+         height: 70vh;
          
         
      }
@@ -191,17 +191,15 @@ footer section{
 @media(max-width:789px){
     #resultados {
         width: 50%;
-         margin-left: 35%;
-        
-         
-        
+         margin-left: 35%;  
+         height: 75vh;
      }
 }
 @media(max-width:469px){
     #resultados {
-        width: 60%;
+        width: 75%;
          margin-left: 15%;      
-        
+         height: 80vh;
      }
 }
 @media(max-width:409px){
@@ -212,13 +210,6 @@ footer section{
      }
      section input {
         width: 15rem;
-        height: 2rem;
-        padding: 1rem;
-        font-size: 1rem;
-        text-align: center;
-        border-radius: 2rem;
-        border: none;
-        background-color: rgb(204, 204, 204);
-        font-weight: bold;
+       
     }
 }
