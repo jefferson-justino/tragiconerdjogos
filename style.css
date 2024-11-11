@@ -120,6 +120,7 @@ section input:focus {
     border-radius: 10px;
     box-shadow:  1px 1px 15px 1px rgb(65, 64, 64);
     width: 350px;
+    height: fit-content;
 }
 .localBot{
     padding-bottom: 5%;

@@ -9,7 +9,7 @@ let jogo2 = new Guias('https://shared.akamai.steamstatic.com/store_item_assets/s
 
 
 let jogo3 = new Guias('https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/capsule_616x353.jpg?t=1709581505',
-                       'Guardiões da galáxia','https://steamcommunity.com/sharedfiles/filedetails/?id=2971893170',
+                       'Marvels Guardians of the Galaxy','https://steamcommunity.com/sharedfiles/filedetails/?id=2971893170',
                     'https://www.instant-gaming.com/pt/9328-comprar-marvel-s-guardians-of-the-galaxy-deluxe-edition-deluxe-edition-pc-jogo-steam/?igr=tragiconerd')
 
 
@@ -48,6 +48,24 @@ let jogo10 = new Guias('https://shared.akamai.steamstatic.com/store_item_assets/
                        'Shadow of the Tomb Raider','https://steamcommunity.com/sharedfiles/filedetails/?id=1515048380',
                     'https://www.instant-gaming.com/pt/5852-comprar-steam-shadow-of-the-tomb-raider-definitive-edition-definitive-edition-pc-mac-jogo-steam/?igr=tragiconerd')
 
+let jogo11 = new Guias('https://gaming-cdn.com/images/products/16474/616x353/ghost-of-tsushima-director-s-cut-pc-jogo-steam-latin-america-cover.jpg?v=1715876591',
+  'Ghost of Tsushima: Directors Cut','https://steamcommunity.com/sharedfiles/filedetails/?id=3257389683',
+  'https://www.instant-gaming.com/pt/16474-comprar-ghost-of-tsushima-director-s-cut-pc-jogo-steam-latin-america/?igr=tragiconerd'
+)
+
+let jogo12 = new Guias('https://gaming-cdn.com/images/products/17838/616x353/silent-hill-2-digital-deluxe-digital-deluxe-pc-jogo-steam-latin-america-cover.jpg?v=1729167797',
+  'Silent Hill 2 - remake','https://steamcommunity.com/sharedfiles/filedetails/?id=3357144106',
+  'https://www.instant-gaming.com/pt/17838-comprar-steam-silent-hill-2-digital-deluxe-digital-deluxe-pc-jogo-steam-latin-america/?igr=tragiconerd'
+)
+
+let jogo13 =new Guias('https://gaming-cdn.com/images/products/17340/616x353/dead-rising-deluxe-remaster-deluxe-remaster-pc-jogo-steam-latin-america-cover.jpg?v=1723125976',
+  'Dead Rising Deluxe Remaster','https://steamcommunity.com/sharedfiles/filedetails/?id=3339013369',
+  'https://www.instant-gaming.com/pt/17340-comprar-dead-rising-deluxe-remaster-deluxe-remaster-pc-jogo-steam-latin-america/?igr=tragiconerd'
+)
+let jogo14 = new Guias('https://gaming-cdn.com/images/products/4836/616x353/marvel-s-avengers-pc-jogo-steam-cover.jpg?v=1704899534',
+'Marvels Avengers','https://steamcommunity.com/sharedfiles/filedetails/?id=3169781483',
+'https://www.instant-gaming.com/pt/4836-comprar-steam-marvel-s-avengers-pc-jogo-steam/?igr=tragiconerd')
+
 let jogos =[]
 
-jogos.push(jogo1,jogo2,jogo3, jogo4,jogo5,jogo6,jogo7,jogo8,jogo9,jogo10)
+jogos.push(jogo1,jogo2,jogo3, jogo4,jogo5,jogo6,jogo7,jogo8,jogo9,jogo10,jogo11,jogo12,jogo13,jogo14)
