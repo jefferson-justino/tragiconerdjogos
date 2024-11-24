@@ -16,8 +16,7 @@ function pesquisa() {
             <h3 class='nomeCard'>${jogos[i].nome}</h3> 
             <pre class='legenda' title='As compras são feitas a partir da loja instant gaming, você pode comprar a chave do jogo e resgatar na steam(para a maioria dos jogos)'>Compre o jogo com desconto</pre>
             <div class='localBot'>
-        <a href=${jogos[i].linkGuia} target='_blank' > <button class='botaoguia'>Encontrar Guia</button></a> 
-        <a href=${jogos[i].linkGame} target='_blank' > <button class='botaocomprar'>Comprar Jogo</button></a>
+            <a href=${jogos[i].linkGame} target='_blank' > <button class='botaocomprar'>Comprar Jogo</button></a>
         </div>
             </div> 
             ` 

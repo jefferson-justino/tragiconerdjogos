@@ -64,8 +64,30 @@ let jogo13 =new Guias('https://gaming-cdn.com/images/products/17340/616x353/dead
 )
 let jogo14 = new Guias('https://gaming-cdn.com/images/products/4836/616x353/marvel-s-avengers-pc-jogo-steam-cover.jpg?v=1704899534',
 'Marvels Avengers','https://steamcommunity.com/sharedfiles/filedetails/?id=3169781483',
-'https://www.instant-gaming.com/pt/4836-comprar-steam-marvel-s-avengers-pc-jogo-steam/?igr=tragiconerd')
+'https://www.instant-gaming.com/pt/4836-comprar-steam-marvel-s-avengers-pc-jogo-steam/?igr=tragiconerd'
+)
+let jogo15 = new Guias('https://gaming-cdn.com/images/products/7166/616x353/gotham-knights-pc-game-steam-europe-cover.jpg?v=1706720073','Gotham Knights',
+  '',
+  'https://www.instant-gaming.com/en/7166-buy-gotham-knights-pc-game-steam-europe/?igr=tragiconerd'
+)
+let jogo16 = new Guias('https://gaming-cdn.com/images/products/4543/616x353/little-nightmares-complete-edition-complete-edition-pc-game-steam-cover.jpg?v=1710776327','Little Nightmares',
+  '',
+  'https://www.instant-gaming.com/en/4543-buy-little-nightmares-complete-edition-complete-edition-pc-game-steam/?igr=tragiconerd'
+)
+let jogo17 =new Guias('https://gaming-cdn.com/images/products/143/616x353/dmc-devil-may-cry-pc-game-steam-europe-cover.jpg?v=1719397004','DMC Devil May Cry',
+  '',
+  'https://www.instant-gaming.com/en/143-buy-dmc-devil-may-cry-pc-game-steam-europe/?igr=tragiconerd'
+)
+let jogo18 = new Guias('https://gaming-cdn.com/images/products/4621/616x353/remnant-from-the-ashes-pc-game-steam-cover.jpg?v=1693467847','Remnant: From the Ashes',
+  '',
+  'https://www.instant-gaming.com/en/4621-buy-steam-remnant-from-the-ashes-pc-game-steam/?igr=tragiconerd'
+)
+let jogo19 = new Guias('https://gaming-cdn.com/images/products/8085/616x353/little-nightmares-ii-deluxe-edition-deluxe-edition-pc-game-steam-cover.jpg?v=1712159707','Little Nightmares II',
+  '',
+  'https://www.instant-gaming.com/en/8085-buy-little-nightmares-ii-deluxe-edition-deluxe-edition-pc-game-steam/?igr=tragiconerd'
+)
 
 let jogos =[]
 
-jogos.push(jogo1,jogo2,jogo3, jogo4,jogo5,jogo6,jogo7,jogo8,jogo9,jogo10,jogo11,jogo12,jogo13,jogo14)
+jogos.push(jogo1,jogo2,jogo3, jogo4,jogo5,jogo6,jogo7,jogo8,jogo9,jogo10,jogo11,jogo12,jogo13,jogo14,jogo15,jogo16,jogo17, jogo18,jogo19)
+
