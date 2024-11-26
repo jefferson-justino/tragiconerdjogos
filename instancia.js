@@ -75,7 +75,7 @@ let jogo16 = new Guias('https://gaming-cdn.com/images/products/4543/616x353/litt
 let jogo17 =new Guias('https://gaming-cdn.com/images/products/143/616x353/dmc-devil-may-cry-pc-game-steam-europe-cover.jpg?v=1719397004','DMC Devil May Cry',9.72,1,
   'https://www.instant-gaming.com/en/143-buy-dmc-devil-may-cry-pc-game-steam-europe/?igr=tragiconerd'
 )
-let jogo18 = new Guias('https://gaming-cdn.com/images/products/4621/616x353/remnant-from-the-ashes-pc-game-steam-cover.jpg?v=1693467847','Remnant: From the Ashes',36.03,1,
+let jogo18 = new Guias('https://gaming-cdn.com/images/products/4621/616x353/remnant-from-the-ashes-pc-game-steam-cover.jpg?v=1693467847','Remnant: From the Ashes',40.05,1,
   'https://www.instant-gaming.com/en/4621-buy-steam-remnant-from-the-ashes-pc-game-steam/?igr=tragiconerd'
 )
 let jogo19 = new Guias('https://gaming-cdn.com/images/products/8085/616x353/little-nightmares-ii-deluxe-edition-deluxe-edition-pc-game-steam-cover.jpg?v=1712159707','Little Nightmares II',37.24,1,
