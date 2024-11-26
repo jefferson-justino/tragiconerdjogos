@@ -84,7 +84,8 @@ let jogo19 = new Guias('https://gaming-cdn.com/images/products/8085/616x353/litt
 let jogo20 = new Guias('https://gaming-cdn.com/images/products/6728/616x353/batman-arkham-collection-arkham-collection-pc-jogo-steam-cover.jpg?v=1703172296','Batman: Arkham Collection',27.34,1,
   'https://www.instant-gaming.com/pt/6728-comprar-batman-arkham-collection-arkham-collection-pc-jogo-steam/?igr=tragiconerd'
 )
-let jogo21 = new Guias('https://gaming-cdn.com/images/products/18083/616x353/s-t-a-l-k-e-r-2-heart-of-chornobyl-pc-jogo-steam-latin-america-cover.jpg?v=1732276049','S.T.A.L.K.E.R. 2: Heart of Chornobyl',202.50,0,
+let jogo21 = new Guias('https://gaming-cdn.com/images/products/18083/616x353/s-t-a-l-k-e-r-2-heart-of-chornobyl-pc-jogo-steam-latin-america-cover.jpg?v=1732276049','S.T.A.L.K.E.R. 2: Heart of Chornobyl',196.10
+  ,1,
   'https://www.instant-gaming.com/pt/18083-comprar-steam-s-t-a-l-k-e-r-2-heart-of-chornobyl-pc-jogo-steam-latin-america/?igr=tragiconerd'
 )
 let jogo22= new Guias('https://gaming-cdn.com/images/products/2457/616x353/devil-may-cry-hd-collection-pc-game-steam-cover.jpg?v=1704905856','Devil May Cry HD Collection',24.12,1,
