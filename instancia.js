@@ -66,8 +66,8 @@ let jogo14 = new Guias('https://gaming-cdn.com/images/products/4836/616x353/marv
 'Marvels Avengers',30.99,1,
 'https://www.instant-gaming.com/pt/4836-comprar-steam-marvel-s-avengers-pc-jogo-steam/?igr=tragiconerd'
 )
-let jogo15 = new Guias('https://gaming-cdn.com/images/products/7166/616x353/gotham-knights-pc-game-steam-europe-cover.jpg?v=1706720073','Gotham Knights',14.89,1,
-  'https://www.instant-gaming.com/en/7166-buy-gotham-knights-pc-game-steam-europe/?igr=tragiconerd'
+let jogo15 = new Guias('https://gaming-cdn.com/images/products/7166/616x353/gotham-knights-pc-game-steam-europe-cover.jpg?v=1706720073','Gotham Knights',19.84,1,
+  'https://www.instant-gaming.com/en/18033-buy-gotham-knights-pc-game-steam/?igr=tragiconerd'
 )
 let jogo16 = new Guias('https://gaming-cdn.com/images/products/4543/616x353/little-nightmares-complete-edition-complete-edition-pc-game-steam-cover.jpg?v=1710776327','Little Nightmares',20.54,1,
   'https://www.instant-gaming.com/en/4543-buy-little-nightmares-complete-edition-complete-edition-pc-game-steam/?igr=tragiconerd'
