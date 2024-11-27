@@ -30,7 +30,7 @@ let jogo6 = new Guias('https://gaming-cdn.com/images/products/4044/616x353/disne
 
 
 let jogo7 = new Guias('https://gaming-cdn.com/images/products/17024/616x353/god-of-war-ragnarok-pc-game-steam-latin-america-cover.jpg?v=1724665749',
-                      'God of War: Ragnarök',185.85,0,
+                      'God of War: Ragnarök',186.40,1,
                     'https://www.instant-gaming.com/en/17024-buy-god-of-war-ragnarok-pc-game-steam-latin-america/?igr=tragiconerd')
 
 
