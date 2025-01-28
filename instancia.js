@@ -104,7 +104,18 @@ let jogo27 = new Guias('https://gaming-cdn.com/images/products/15957/616x353/tom
 let jogo28 = new Guias('https://gaming-cdn.com/images/products/1640/616x353/rise-of-the-tomb-raider-20-year-celebration-20-year-celebration-pc-mac-jogo-steam-cover.jpg?v=1649865185', 
 'Rise of the Tomb Raider', 'https://www.instant-gaming.com/pt/1640-comprar-steam-rise-of-the-tomb-raider-20-year-celebration-20-year-celebration-pc-mac-jogo-steam/?igr=tragiconerd'
 )
+let jogo29 = new Guias('https://gaming-cdn.com/images/products/18566/616x353/the-last-of-us-part-ii-remastered-pc-jogo-steam-latin-america-cover.jpg?v=1737707866','The Last Of Us Part II Remastered',
+'https://www.instant-gaming.com/pt/18566-comprar-the-last-of-us-part-ii-remastered-pc-jogo-steam-latin-america/?igr=tragiconerd'
+)
+let jogo30 = new Guias('https://gaming-cdn.com/images/products/305/616x353/alien-isolation-pc-mac-jogo-steam-cover.jpg?v=1720709003','Alien: Isolation',
+'https://www.instant-gaming.com/pt/305-comprar-alien-isolation-pc-mac-jogo-steam/?igr=tragiconerd'
+)
+
+
+
 let jogos = []
 
-jogos.push(jogo1, jogo2, jogo3, jogo4, jogo5, jogo6, jogo7, jogo8, jogo9, jogo10, jogo11, jogo12, jogo13, jogo14, jogo15, jogo16, jogo17, jogo18, jogo19, jogo20, jogo21, jogo22, jogo23, jogo24, jogo25, jogo26, jogo27, jogo28)
+jogos.push(jogo1, jogo2, jogo3, jogo4, jogo5, jogo6, jogo7, jogo8, jogo9, jogo10, jogo11,
+           jogo12, jogo13, jogo14, jogo15, jogo16, jogo17, jogo18, jogo19, jogo20, jogo21, jogo22, 
+           jogo23, jogo24, jogo25, jogo26, jogo27, jogo28,jogo29, jogo30)
 
